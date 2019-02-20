@@ -1,0 +1,9 @@
+.router {
+    border: 1x solid red;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+.btn-success {
+    margin: 5px;
+} 

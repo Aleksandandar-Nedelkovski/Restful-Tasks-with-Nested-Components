@@ -1,0 +1,11 @@
+<div>
+  <form (submit)='onSubmit()'>
+    <h3>Add a task below</h3>
+    <!-- {{ newTask | json }} -->
+    <p> <input type='text' name="title" [value]='newTask.title' [(ngModel)]="newTask.title" placeholder="name">
+    </p>
+    <p> <input type='text' name="description" [value]='newTask.description' [(ngModel)]="newTask.description"
+        placeholder="description"> </p>
+    <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+  </form>
+</div>
